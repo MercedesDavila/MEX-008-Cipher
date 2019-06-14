@@ -1,15 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+    <section id="section01" class="demo">
+        <h3>- Polaris. -<br><br></h3>
+        <br><br>
+        <h2><br><br><br>To find Polaris you must find Cesar!.</h2>
+        <a href="#section02" class="scroll-down" address="true"></a>
+    </section>
+
+    <section id="section02">
+        <div>
+            <h3>Bienvenido a Polaris!</h3>
+            <h2>Esta página se basa en el código de cifrado César.
+                <br> <br>En esta página usted podra cifrar y/o descifrar archivos importantes para proteger la confidencialidad Médico-Paciente.
+            </h2>
+
+            <button id="CodeMsg" class="btn_code"><a href="#content-msg-encode">Codificar!</a></button>
+            <button id="DecodeMsg" class="btn_decode"><a href="#content-msg-decode">Decodificar!</a></button>
+        </div>
+    </section>
+
+
+    <section id="content-msg-encode" class="msg-style display_block">
+        <h4>--Codificar-!-</h4>
+        <div class="Codificar">
+            <br>
+            <br><br><br><br><br><br>
+            <p>Ingrese Su Mensaje:</p>
+            <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+            <div class="content-offset">
+                <label class="label">Ingrese N° de desplazamiento:</label>
+                <input type="number" id="n_offset_e" class="n_offset_style">
+            </div>
+            <button id="btn_encode" class="btn-code">Codifica tu Mensaje</button>
+            <div id="msg-encode" class="msg-ckeck">
+                <p id="msg-encode-check"></p>
+            </div>
+            <button onclick="location.reload();" class="btn_reload">Volver a Intentar!</button>
+            <button id="Return-Encode" class="btn_return"><a href="#section02">Regresar</a></button>
+        </div>
+
+    </section>
+
+    <section id="content-msg-decode" class="msg-style display_block">
+        <h4>--Decodificar-!-</h4>
+        <div class="Decodificar">
+            <br>
+            <br><br><br><br><br><br>
+            <p class="parrafo">Ingrese Su Mensaje:</p>
+            <textarea id="box-msg-decode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+            <div class="content-offset">
+                <label class="label">Ingrese N° de desplazamiento: </label>
+                <input type="number" id="n_offset_d" class="n_offset_style">
+            </div>
+            <button id="btn_decode" class="btn-decode">Decodifica tu Mensaje</button>
+            <div id="msg-decode" class="msg-ckeck">
+                <p id="msg-decode-check"></p>
+            </div>
+            <button onclick="location.reload();" class="btn_reload">Volver a Intentar!</button>
+            <button id="Return-Decode" class="btn_return"><a href="#section02">Regresar</a></button>
+        </div>
+
+    </section>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
+    <button id="myBtn"><a href="#top" >^</a></button>
+</body>
+
 </html>
