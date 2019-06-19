@@ -13,17 +13,15 @@ Es de especial relevancia la **confianza del paciente** en el profesional que le
 
 # PROTOTIPO.
 
-El prototipo se realizó en marvel [https://marvelapp.com] marvel.
+El prototipo se realizó en marvel, 
 
 El proceso de prototipado fue muy fácil dado que ya había decidido que la pagina debía ser sencilla, fácil de entender y sobre todo fluida.
 
-[https://imgflip.com/gif/33sqiw]
 
 # DISEÑO.
 
-En el diseño tome en cuenta colores, tipos de letra e imágenes que reflejaran seriedad, dado que es una página orientada a temas serios.
+En el diseño tome en cuenta colores, tipos de letra e imágenes que reflejaran seriedad, dado el tema que se esta tomando cuenta.
 
-[https://imgflip.com/gif/33sr6q]
 
 # Desarrollo.
 
@@ -35,7 +33,7 @@ Herramientas utilizadas para el desarrollo de este proyecto:
 
 Construido con:
 
-- Visual Studio Code, editor de código fuente. [[https://code.visualstudio.com/](https://code.visualstudio.com/)]
+- Visual Studio Code, editor de código fuente.
 
 ### ¿Cómo puedo descargar, instalar y ejecutar este proyecto?
 
@@ -47,6 +45,8 @@ Construido con:
 ### ¿Cómo ejecutar este proyecto?
 
 Solo necesitas un navegador y dar click en el siguiente link:
+
+[Cipher-MD](https://mercedesdavila.github.io/MEX-008-Cipher/src/index.html#top)
 
 ## Autor.
 
