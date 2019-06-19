@@ -1,6 +1,8 @@
 const encodebtn = document.getElementById('btn_encode');
 let codeOffSet = document.getElementById('n_offset_e');
 let textToCode = document.getElementById('box-msg-encode');
+
+
 const decodebtn = document.getElementById('btn_decode');
 let decodeOffSet = document.getElementById('n_offset_d');
 let textToDecode = document.getElementById('box-msg-decode');
