@@ -18,7 +18,7 @@ El proceso de prototipado fue muy fácil dado que ya había decidido que la pagi
 
 # DISEÑO.
 
-El diseño tiene que ser sobrio, dado la aplicación para la cual será utilizada la aplicación.
+El diseño tiene que ser sobrio, dado la aplicación para la cual será utilizada la página.
 
 ![Alt Text](https://media.giphy.com/media/dXjSyMgZuo0awxpLm2/giphy.gif)
 
