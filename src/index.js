@@ -7,6 +7,39 @@ const decodebtn = document.getElementById('btn_decode');
 let decodeOffSet = document.getElementById('n_offset_d');
 let textToDecode = document.getElementById('box-msg-decode');
 
+
+//Function that hide section with id
+// const hideSection = (id) => {
+//     document.getElementById(id).classList.add('hide');
+// };
+//Function that show section with id
+const showSection = (id) => {
+    document.getElementById(id).classList.remove('hide');
+};
+
+
+const CodeMsg = document.getElementById('CodeMsg');
+const DecodeMsg = document.getElementById('DecodeMsg');
+
+const codemsg = () => {
+
+    showSection("content-msg-encode");
+}
+
+
+CodeMsg.addEventListener("click", codemsg);
+// DecodeMsg.addEventListener("click", showmsgdecode);
+const decodemsg = () => {
+
+    showSection("content-msg-decode");
+}
+
+DecodeMsg.addEventListener("click", decodemsg);
+
+
+
+
+
 const printEncodeMessage = () => {
     const blankMsg = document.getElementById('msg-encode-check');
     let codeOffSetNumber = parseInt(codeOffSet.value);
