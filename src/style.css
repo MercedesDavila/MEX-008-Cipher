@@ -1,4 +1,7 @@
     @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+    @import url(https://fonts.googleapis.com/css?family=Droid+Serif:Roboto:300);
+    @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:Ruda);
+    @import url(https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700);
     * {
         margin: 0;
         padding: 0;
@@ -126,30 +129,7 @@
         color: #ffffff;
     }
     
-    .btn_reload {
-        border: 0px;
-        width: 170px;
-        height: 50px;
-        background-color: #008F99;
-        border-radius: 5px;
-        margin-top: 15px;
-        color: #fff;
-        font-size: 15px;
-        box-shadow: 3px 3px 7px 1px #898989;
-        cursor: pointer;
-        transition: 0.4s;
-        font-family: 'Roboto Slab';
-        margin-left: 6%;
-    }
-    
-    .btn_reload:hover {
-        background-color: #FFC107;
-    }
-    
-    .btn_reload:focus {
-        outline: 0px;
-    }
-    
+    .btn_reload,
     .btn_return {
         border: 0px;
         width: 170px;
@@ -166,12 +146,9 @@
         margin-left: 6%;
     }
     
+    .btn_reload:hover,
     .btn_return:hover {
         background-color: #FFC107;
-    }
-    
-    .btn_return:focus {
-        outline: 0px;
     }
     
     .content-header h1 {
@@ -251,7 +228,7 @@
         display: inline-block;
         text-align: start;
         margin: 0em;
-        font: 400 13.3333px Arial;
+        font: 400 20px Arial;
     }
     
     .box-msg-style {
@@ -335,7 +312,7 @@
         display: inline-block;
         text-align: start;
         margin: 0em;
-        font: 400 13.3333px Arial;
+        font: 400 20px Arial;
     }
     
     .btn_code:hover,
