@@ -84,8 +84,8 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [x] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
-* [ ] Modelo de negocio.
+* [x] Cifra/descifra minúsculas
+* [x] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
+* [x] Permite usar un `offset` negativo.
+* [x] Modelo de negocio.
 
